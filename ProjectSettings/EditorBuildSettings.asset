@@ -5,9 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ScenePersonnageTests.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/sceneExt01.unity
+    guid: a64224f58b638684eb6c2ef111e3081e
+  - enabled: 1
+    path: Assets/Scenes/SceneInt01.unity
+    guid: 677d968406983dc4893c33854a6c0672
+  - enabled: 1
+    path: Assets/Scenes/SceneInt02.unity
+    guid: 65af4dc2f66f6594090d032cf31874f7
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: 0e9ef782d722ba648bb7602c101bee81
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 1bc6f2c159a9e4145b4b140854843f1f
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: a8b33079e4802284ba24b3fa8cb649ff
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 83b7f52fd017d3941979a2ce64e665ae,
       type: 2}
