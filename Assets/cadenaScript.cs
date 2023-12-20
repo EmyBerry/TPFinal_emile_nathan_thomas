@@ -37,7 +37,7 @@ public class cadenaScript : MonoBehaviour
         if(other.gameObject.name == pickname){
             gameObject1.SetActive(false);
             gameObject2.SetActive(true);
-            SceneManager.LoadScene(sceneACharger, LoadSceneMode.Single);
+        SceneManager.LoadScene (sceneName:sceneACharger);
         }
         }
     }

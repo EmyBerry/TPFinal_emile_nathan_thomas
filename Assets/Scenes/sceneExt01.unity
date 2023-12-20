@@ -843,6 +843,38 @@ MonoBehaviour:
   ObjectName3: {fileID: 1934377762}
   ObjectName4: {fileID: 1953066401}
   ObjectName5: {fileID: 1414243450}
+--- !u!1 &189684167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7876153529383591597, guid: 328e221d871c67c4c86bfcdaffc318c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 780856450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &189684169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189684167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfd761447e2e5a4e9aa66200814e77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerTexte: {fileID: 189684170}
+  tempRestant: 120
+--- !u!114 &189684170 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6107145042056787727, guid: 328e221d871c67c4c86bfcdaffc318c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 780856450}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189684167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &192882280 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6577237425059042219, guid: cda6727d05f1a2f45970198a67b2279d,
@@ -2915,6 +2947,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2174119244657404161, guid: 328e221d871c67c4c86bfcdaffc318c7,
         type: 3}
+      propertyPath: m_text
+      value: Thomas Rivard
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174119244657404161, guid: 328e221d871c67c4c86bfcdaffc318c7,
+        type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -3006,7 +3043,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7876153529383591597, guid: 328e221d871c67c4c86bfcdaffc318c7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 189684169}
   m_SourcePrefab: {fileID: 100100000, guid: 328e221d871c67c4c86bfcdaffc318c7, type: 3}
 --- !u!1 &790227671 stripped
 GameObject:
@@ -3084,7 +3125,7 @@ MonoBehaviour:
   targetTime: 3
   pickname: pioche
   isHeated: 0
-  Heated: 0
+  Heated: 1
   gameObject1: {fileID: 774670347}
   gameObject2: {fileID: 1186011495}
   sceneACharger: SceneInt01
@@ -3586,11 +3627,28 @@ PrefabInstance:
       propertyPath: m_StepOffset
       value: 1.9
       objectReference: {fileID: 0}
+    - target: {fileID: 8326283366911337391, guid: 564a7b6b270ed184982829a38302e9d5,
+        type: 3}
+      propertyPath: m_System
+      value: 
+      objectReference: {fileID: 938450285}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 564a7b6b270ed184982829a38302e9d5, type: 3}
+--- !u!114 &938450285 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8109796994549803064, guid: 564a7b6b270ed184982829a38302e9d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 938450284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &938926579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 269d485307b63d24ba0d3e5732721715,
