@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenePersonnageTests.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 1bc6f2c159a9e4145b4b140854843f1f
+  - enabled: 1
     path: Assets/Scenes/sceneExt01.unity
     guid: a64224f58b638684eb6c2ef111e3081e
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOverScreen.unity
     guid: 0e9ef782d722ba648bb7602c101bee81
-  - enabled: 1
-    path: Assets/Scenes/MainMenuScene.unity
-    guid: 1bc6f2c159a9e4145b4b140854843f1f
   - enabled: 1
     path: Assets/Scenes/WinScene.unity
     guid: a8b33079e4802284ba24b3fa8cb649ff
